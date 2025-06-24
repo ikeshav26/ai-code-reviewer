@@ -3,7 +3,7 @@ const aiController=require('../controller/ai.controller.js')
 const router= express.Router();
 
 
-router.get('/get-response',aiController)
+router.post('/get-response',aiController)
 
 
 
